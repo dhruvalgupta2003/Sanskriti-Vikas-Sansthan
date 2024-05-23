@@ -1,0 +1,124 @@
+.process-container {
+  position: relative;
+  background-color:#80634D
+  ;
+  width: 80vw;
+  height: 500px;
+  left: 15vw;
+  @media screen and (max-width:1024px) {
+    left: 50%;
+    right: 50%;
+    transform: translateX(-50%);
+    height: 100vh;
+  width: 95vw;
+
+  }
+  border-radius: 50px 50px 50px 50px;
+  padding: 20px 10px;
+  .our-process-yellow {
+    height: 300px;
+    width: 300px;
+    border-radius: 50px; /* This is equivalent to 50px for all four corners */
+    background-color: #F2BF7E;
+    background-image: url('../../../assets/QR.png');
+    background-size: contain; /* Ensures the background image is scaled to fit the container */
+    background-repeat: no-repeat; /* Prevents the background image from repeating */
+    background-position: center; /* Centers the background image within the element */
+    position: absolute;
+    top: 50%;
+    right: 90%;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    p{
+        text-align: center;
+        color: white;
+        padding: 20px;
+    }
+    @media screen and (max-width:1024px) {
+      position: relative;
+      top: 0;
+      width: 95vw;
+      left: 50%;
+      right: 50%;
+      transform: translateX(-50%);
+    }
+  }
+  h1{
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-size: 5rem;
+    
+  }
+}
+.process-text{
+    color: white;
+    width: 60%;
+    font-size: 17px;
+    @media screen and (max-width:768px) {
+      width:100%;
+      
+    }
+}
+
+
+.three-boxes{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    
+    position: relative;
+    top: 100px;
+    @media screen and (max-width:1024px) {
+      top: 20px;
+      
+    }
+    @media screen and (max-width:768px) {
+      flex-direction: column;
+      align-items: center;
+      
+    }
+    .three-box{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background: var(--Gray-Scale-White, #FFF);
+    box-shadow: 0 0 56px #00260314;
+        justify-content: center;
+        height: 11rem;
+        width: 11rem;
+        // height: 200px;
+        // width: 200px;
+        border-radius: 50px 50px 50px 50px;
+        @media screen and (max-width:1024px) {
+          height: 9rem;
+          width: 9rem;
+          
+        }
+        @media screen and (max-width:768px) {
+          height: 7rem;
+          width: 7rem;
+        border-radius: 40px 40px 40px 40px;
+          font-size: 12px;
+          padding: auto;
+        }
+    }
+}
+
+.why-us-line{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  @media screen and (max-width:768px) {
+    line-height: 120%;
+    h1{
+      font-size: 3rem;
+      font-weight: 300;
+    }
+    svg{
+      width: 120px;
+    }
+  }
+}

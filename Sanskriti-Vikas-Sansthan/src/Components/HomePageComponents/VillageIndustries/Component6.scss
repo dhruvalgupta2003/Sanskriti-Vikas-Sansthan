@@ -1,0 +1,201 @@
+.component-5-wrapper{
+    background-image: url('../../../assets/paper.png');
+    @media screen and (max-width:1024px) {
+        
+    }
+    .component-5-container{
+        
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        p{
+            position: absolute;
+            font-size: 6rem;
+            font-weight: 700;
+            color: white;
+            top: 40%;
+            left: 25%;
+            line-height: 120%;
+            .sans{
+                margin-left: 100px;
+            }
+            @media screen and (max-width:768px) {
+                font-size: 40px;
+                img{
+                    object-fit: cover;
+                }
+                
+            }
+        }
+        
+    }
+    img{
+        width: 100vw;
+        height: 90vh;
+        align-self:flex-end;
+        // margin-top: 20px;
+    }
+
+    .component-52-container{
+        // height: 70vh;
+        width: 90vw;
+        background-color: #956948;
+        border-radius: 0 40px 40px 0;
+        position: relative;
+        bottom: 100px;
+        padding-top:3% ;
+        top: 80%;
+        display: flex;
+        justify-content: space-between;
+        .bg-inner1{
+            margin-top: 40px;
+            height: 380px;
+            width: 281px;
+        }
+        .banner-52-container{
+            width: 50%;
+        }
+        
+        @media screen and (max-width:768px) {
+            flex-direction: column;
+            width: 95vw;
+            padding-top: 0;;
+            .banner-52-container{
+                width: 100%;
+                height: 100%;
+                
+            }
+        }
+        .line2{
+            @media screen and (max-width:768px) {
+                width:100px;
+                
+            }
+        }
+        h1{
+            color: white;
+            font-size: 6rem;
+            font-weight: 700;
+            
+            @media screen and (max-width:768px) {
+                font-size: 2rem;
+                line-height: 120%;
+                
+            }
+        }
+        img{
+            padding: 0;
+            height: 100%;
+            @media screen and (max-width:768px) {
+                width: 100%;
+                
+                
+            }
+            
+        }
+        
+    }
+}
+
+
+.services{
+    display: flex;
+    justify-content: space-around;
+    
+    flex-wrap: wrap;
+    @media screen and (max-width:700px) {
+        flex-direction:column;
+        gap:40px
+    }
+    .service{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        flex: 1;
+        
+        h1{
+            font-size: 30px;
+        }
+        p{
+            color: gray;
+            text-align: center;
+            width: 50%;
+        }
+    }
+}
+
+.wardrobes-container{
+    // width: 80vw;
+    // margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+   
+}
+.wardrobes{
+    display: flex;
+    align-items: center;
+    // flex-wrap: wrap;
+    padding-left: 20px;
+    
+    h1{
+        font-size: 5rem;
+        font-weight: 300;
+        padding: 2%;
+        @media only screen and (max-width: 600px){
+            font-size: 3rem;
+        }
+    }
+    
+    
+}
+
+.wardrobe-inner{
+    display: flex;
+    flex-direction: row;
+    // justify-content: space-between;
+    // flex-wrap: wrap;
+    width: auto;
+    margin: 0 auto;
+    .wardrobe-text{
+        font-size: 50px;
+        font-weight: 600;
+        width: 500px;
+        span{
+            font-size: 5rem;
+        }
+    }
+    // @media screen and (max-width:1024px){
+    //     flex-direction:column
+    // }
+    @media screen and (max-width:600px) {
+        .wardrobe-text{
+            font-size: 30px;
+            font-weight: 600;
+            line-height: 130%;
+            span{
+                font-size: 3rem;
+            }
+        }
+        img{
+            padding: 20px;
+        }
+
+    }
+    img{
+      height: 90%;
+      width: 80%;
+      margin-left: 10%;
+    }
+}
+
+.view-more-button{
+    background-color: #FFC94B;
+    width: fit-content;
+    margin: 0 auto;
+    padding: 10px 40px;
+    border-radius: 20px;
+    font-weight: 500;
+    font-size: 20px;
+}
+
